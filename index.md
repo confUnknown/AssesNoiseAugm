@@ -33,9 +33,9 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 	<source src="audio_clips/c_w/8455-210777-0066_benign_noise.wav" type="audio/wav" />
 </audio>
 **C&W adversarial**:                  **C&W adversarial + Noise**:  
-[**1**: *WER*=00.00, SNR<sub>seg</sub>=24.47],           [**1**: *WER*=100.0]  
-[**2**: *WER*=03.42, SNR<sub>seg</sub>=18.84],           [**2**: *WER*=100.0]  
-[**3**: *WER*=08.42, SNR<sub>seg</sub>=15.93],           [**3**: *WER*=100.0]  
+[**1**: *WER*=00.00, SNR<sub>seg</sub>=24.47],          [**1**: *WER*=100.0]  
+[**2**: *WER*=03.42, SNR<sub>seg</sub>=18.84],          [**2**: *WER*=100.0]  
+[**3**: *WER*=08.42, SNR<sub>seg</sub>=15.93],          [**3**: *WER*=100.0]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/8455-210777-0066_cw_26022.wav" type="audio/wav" />
 </audio>
