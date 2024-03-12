@@ -104,21 +104,19 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
 </audio>
-###### Sample 2
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
+###### Sample 2 
+<pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
- <audio style="width:320px" controls="controls">
-	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
+**Alzantot adversarial**:  
+[**1**: *WER*=42.86, SNR<sub>seg</sub>=13.62]  
+[**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
+[**3**: *WER*=14.29, SNR<sub>seg</sub>=29.5]  
+**Benign**:               **Alzantot adversarial**:  
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
 </audio>
-###### Sample 3 
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
-</pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
+	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
 </audio>
 
 ### Experiments for the Kenansville attack.
