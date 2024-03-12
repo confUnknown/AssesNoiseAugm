@@ -20,7 +20,7 @@ As outlined in our paper we investigated three types of training regimes, result
 <pre>Benign transcription:       <em>THEY OF COURSE MUST ALL BE ALTERED</em>
 Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 </pre> &nbsp;
-[**Benign**:]               [**Benign + noise**: SNR<sub>seg</sub>=-4.81]<Shift+Enter>
+**Benign**:               **Benign + noise**: SNR<sub>seg</sub>=-4.81<Shift+Enter>
 [**1**: *WER*=14.29],                    [**1**: *WER*=71.43]
 [**2**: *WER*=00.00],                    [**2**: *WER*=57.14]
 [**3**: *WER*=14.29],                    [**3**: *WER*=14.29]
