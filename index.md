@@ -1,135 +1,50 @@
+# Adversarial example demo
 
-Skip to content
+Supplementary material containing a selection of benign, adversarial, and noisy data employed in our [*paper*]().
 
-    confUnknown
-    /
-    AssesNoiseAugm
+For each sample, we include the word error rate (WER) as an accuracy metric and the segmental signal-to-noise ratio (SNR<sub>seg</sub>) as a quality noise metric. An SNR<sub>seg</sub> exceeding 0 dB indicates a stronger signal presence compared to noise. These samples are sourced from the [*Librispeech*](https://www.openslr.org/12) corpus dataset.
 
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
+As outlined in our paper we investigated three types of training regimes, resulting in three different models, respectively :
 
-    Settings
+1: baseline (no augmentation): This model serves as our control of the clean dataset without any form of augmentation. 
+    This baseline establishes the standard level of performance for each model under ideal acoustic conditions.
+    
+2: augmentation with speed variations: During the training of the second model temporal variability was introduced into the training data by applying speed perturbations. 
+    These augmentations simulate natural variations in speech tempo, which can occur due to speaker differences or recording conditions.
+    
+3: augmentation with speed variations, background noise, and reverberation: The third model is trained with both background noises and reverberations, in addition to speed variations. 
+    This combination aims to mimic more challenging and realistic acoustic environments that ASR systems may encounter in real-world applications.
 
-Files
-t
-
-audio_clips
-LICENSE
-README.md
-_config.yml
-
-    index.md
-
-Editing index.md in AssesNoiseAugm
-Breadcrumbs
-
-    AssesNoiseAugm
-
-/
-in
-main
-
-Indent mode
-Indent size
-Line wrap mode
-Editing index.md file contents
-Selection deleted
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-83
-84
-85
-86
-87
-88
-89
-90
-91
-92
-93
-94
-95
-96
-97
-98
-99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115
-116
-117
-118
-119
-120
-121
-122
-123
-124
-125
-126
-127
-128
-129
-130
-131
-132
-133
-134
-135
-136
-137
+### Experiments for the C&W attack.
+###### Sample 1 
+<pre>Benign transcription:       <em>THEY OF COURSE MUST ALL BE ALTERED</em>
+Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
+</pre> &nbsp;
+**Benign**:                    **Benign + Noise**: SNR<sub>seg</sub>= -4.81  
+[**1**: *WER*=14.29],                 [**1**: *WER*=71.43]  
+[**2**: *WER*=00.00],                 [**2**: *WER*=57.14]  
+[**3**: *WER*=14.29],                 [**3**: *WER*=14.29]  
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/c_w/8455-210777-0066.wav" type="audio/wav" />
+</audio>
+ <audio style="width:320px" controls="controls">
+	<source src="audio_clips/c_w/8455-210777-0066_benign_noise.wav" type="audio/wav" />
+</audio>
+**C&W adversarial**:                **C&W adversarial + Noise**:  
+[**1**: *WER*=00.00, SNR<sub>seg</sub>=24.47],          [**1**: *WER*=100.0]  
+[**2**: *WER*=03.42, SNR<sub>seg</sub>=18.84],          [**2**: *WER*=100.0]  
+[**3**: *WER*=08.42, SNR<sub>seg</sub>=15.93],          [**3**: *WER*=100.0]  
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/c_w/8455-210777-0066_cw_26022.wav" type="audio/wav" />
+</audio>
+ <audio style="width:320px" controls="controls">
+	<source src="audio_clips/c_w/8455-210777-0066_cw_noise_26022.wav" type="audio/wav" />
+</audio>
+###### Sample 2
+<pre>Benign transcription:       <em>TO THEIR SORROW THEY WERE SOON UNDECEIVED</em>
+Adversarial transcription:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY</em>
+</pre> &nbsp;
+**Benign**:               **Benign + Noise**: SNR<sub>seg</sub>= 1.34  
 [**1**: *WER*=00.00],            [**1**: *WER*=42.86]  
 [**2**: *WER*=00.00],            [**2**: *WER*=28.57]  
 [**3**: *WER*=00.00],            [**3**: *WER*=0.00]  
@@ -220,7 +135,12 @@ Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD<
 [**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-Attach files by dragging & dropping, selecting or pasting them.
-Editing AssesNoiseAugm/index.md at main · confUnknown/AssesNoiseAugm
- 
+</audio>
+###### Sample 3 
+<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
+Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
+</pre> &nbsp;
+[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+ <audio style="width:320px" controls="controls">
+	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
+</audio>
