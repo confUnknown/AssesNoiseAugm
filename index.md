@@ -73,20 +73,20 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 [**2**: *WER*=00.00],            [**2**: *WER*=40.00]  
 [**3**: *WER*=00.00],            [**3**: *WER*=10.00]  
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/7729-102255-0034.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/2094-142345-0055.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/7729-102255-0034_benign_noise.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/2094-142345-0055_benign_noise.wav" type="audio/wav" />
 </audio>
 **C&W adversarial**:           **C&W adversarial + Noise**:  
 [**1**: *WER*=00.00, SNR<sub>seg</sub>=25.78],     [**1**: *WER*=100.0]  
 [**2**: *WER*=00.00, SNR<sub>seg</sub>=23.94],     [**2**: *WER*=88.89]  
 [**3**: *WER*=60.00, SNR<sub>seg</sub>=22.30],     [**3**: *WER*=100.0]  
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/7729-102255-0034_cw_26022.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/2094-142345-0055_cw_26022.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/7729-102255-0034_cw_noise_26022.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/2094-142345-0055_cw_noise_26022.wav" type="audio/wav" />
 </audio>
 
 ### Experiments for the Alzantot attack.
