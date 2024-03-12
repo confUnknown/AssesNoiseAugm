@@ -21,8 +21,8 @@ As outlined in our paper we investigated three types of training regimes, result
 Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 </pre> &nbsp;
 [**Benign**:],                     [**noisy**:]                                
-[**1**: *WER*=14.29],                    [**1**: *WER*=71.43, SNR<sub>seg</sub>=-4.79]                     
-[**2**: *WER*=00.00],                    [**2**: *WER*=57.14, SNR<sub>seg</sub>=-4.79]                      
+[**1**: *WER*=14.29],                    [**1**: *WER*=25.87, SNR<sub>seg</sub>=-4.79]                     
+[**2**: *WER*=00.00],                    [**2**: *WER*=26.88, SNR<sub>seg</sub>=-4.79]                      
 [**3**: *WER*=14.29],                    [**3**: *WER*=25.87, SNR<sub>seg</sub>=15.9]
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/8455-210777-0066.wav" type="audio/wav" />
