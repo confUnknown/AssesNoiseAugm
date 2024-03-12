@@ -105,18 +105,18 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
 </audio>
 ###### Sample 2 
-<pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
+<pre>Benign transcription:       <em>WHY FADE THESE CHILDREN OF THE SPRING</em>
 </pre> &nbsp;
 **Alzantot adversarial**:  
 [**1**: *WER*=42.86, SNR<sub>seg</sub>=13.62]  
 [**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
-[**3**: *WER*=14.29, SNR<sub>seg</sub>=29.5]  
+[**3**: *WER*=14.29, SNR<sub>seg</sub>=29.48]  
 **Benign**:               **Alzantot adversarial**:  
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
+	<source src="audio_clips/Alzantot/908-157963-0003.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
+	<source src="audio_clips/Alzantot/908-157963-0003_26020.wav" type="audio/wav" />
 </audio>
 
 ### Experiments for the Kenansville attack.
