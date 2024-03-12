@@ -20,11 +20,10 @@ As outlined in our paper we investigated three types of training regimes, result
 <pre>Benign transcription:       <em>THEY OF COURSE MUST ALL BE ALTERED</em>
 Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 </pre> &nbsp;
-[**Benign**:] ,			[**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
-</pre> &nbsp;
-[**1**: *WER*=14.29],           [**1**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
-[**2**: *WER*=14.29],           [**2**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
-[**3**: *WER*=14.29]		[**2**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+[**Benign**:],                       [**noisy**:]                                
+[**1**: *WER*=14.29],                    [**1**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]                     
+[**2**: *WER*=14.29],                    [**2**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]                     
+[**3**: *WER*=14.29],                    [**3**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/8455-210777-0066.wav" type="audio/wav" />
 </audio>
