@@ -94,14 +94,15 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 <pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
 </pre> &nbsp;
 **Alzantot adversarial**:  
-[**1**: *WER*=66.67, SNR<sub>seg</sub>=25.78]  
-[**2**: *WER*=66.67, SNR<sub>seg</sub>=23.94]  
-[**3**: *WER*=41.67, SNR<sub>seg</sub>=22.30]  
+[**1**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
+[**2**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
+[**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
+**Benign**:               **Alzantot adversarial**:  
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/2094-142345-0055_cw_26022.wav" type="audio/wav" />
+	<source src="audio_clips/alzanztot/908-157963-0017.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/2094-142345-0055_cw_noise_26022.wav" type="audio/wav" />
+	<source src="audio_clips/alzanztot/908-157963-0017_26020.wav" type="audio/wav" />
 </audio>
 ###### Sample 2
 <pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
