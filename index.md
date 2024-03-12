@@ -30,7 +30,7 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/8455-210777-0066_benign_noise.wav" type="audio/wav" />
 </audio>
-**C&W adversarial**:                **C&W adversarial + Noise**:  
+**C&W adversarial**:                  **C&W adversarial + Noise**:  
 [**1**: *WER*=00.00, SNR<sub>seg</sub>=24.47],          [**1**: *WER*=100.0]  
 [**2**: *WER*=03.42, SNR<sub>seg</sub>=18.84],          [**2**: *WER*=100.0]  
 [**3**: *WER*=08.42, SNR<sub>seg</sub>=15.93],          [**3**: *WER*=100.0]  
@@ -44,7 +44,7 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 <pre>Benign transcription:       <em>TO THEIR SORROW THEY WERE SOON UNDECEIVED</em>
 Adversarial transcription:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY</em>
 </pre> &nbsp;
-**Benign**:               **Benign + Noise**: SNR<sub>seg</sub>= 1.34  
+**Benign**:                    **Benign + Noise**: SNR<sub>seg</sub>= 1.34  
 [**1**: *WER*=00.00],            [**1**: *WER*=42.86]  
 [**2**: *WER*=00.00],            [**2**: *WER*=28.57]  
 [**3**: *WER*=00.00],            [**3**: *WER*=0.00]  
@@ -68,7 +68,7 @@ Adversarial transcription:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY<
 <pre>Benign transcription:       <em>BUT YOU KNOW MORE ABOUT THAT THAN I DO SIR</em>
 Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em>
 </pre> &nbsp;
-**Benign**:               **Benign + Noise**: SNR<sub>seg</sub>= -0.41  
+**Benign**:                    **Benign + Noise**: SNR<sub>seg</sub>= -0.41  
 [**1**: *WER*=00.00],            [**1**: *WER*=50.00]  
 [**2**: *WER*=00.00],            [**2**: *WER*=40.00]  
 [**3**: *WER*=00.00],            [**3**: *WER*=10.00]  
@@ -97,7 +97,7 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 [**1**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
 [**2**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
 [**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
-**Benign**:               **Alzantot adversarial**:  
+**Benign**:                    **Alzantot adversarial**:  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
 </audio>
@@ -111,7 +111,7 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 [**1**: *WER*=42.86, SNR<sub>seg</sub>=13.62]  
 [**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
 [**3**: *WER*=14.29, SNR<sub>seg</sub>=29.48]  
-**Benign**:               **Alzantot adversarial**:  
+**Benign**:                    **Alzantot adversarial**:  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0003.wav" type="audio/wav" />
 </audio>
