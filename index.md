@@ -28,7 +28,7 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 	<source src="audio_clips/c_w/8455-210777-0066.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/8455-210777-0066.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/8455-210777-0066_benign_noise.wav" type="audio/wav" />
 </audio>
 ###### Sample 2
 <pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
