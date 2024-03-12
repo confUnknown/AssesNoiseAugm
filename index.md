@@ -11,5 +11,5 @@ Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD<
 </pre> &nbsp;
 [**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Librispeech/1995-1837-0013_benign.wav" type="audio/wav" />
+	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
 </audio>
