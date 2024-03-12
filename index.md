@@ -135,16 +135,16 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 	<source src="audio_clips/Alzantot/908-157963-0003_26020.wav" type="audio/wav" />
 </audio>
 ###### Sample 2 
-<pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
+<pre>Benign transcription:       <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'S BEELZEBUB AT ONCE</em>
 </pre> &nbsp;
 **Alzantot adversarial**:  
-[**1**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
-[**2**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
-[**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
+[**1**: *WER*=41.67, SNR<sub>seg</sub>=22.37]  
+[**2**: *WER*=16.67, SNR<sub>seg</sub>=22.37]  
+[**3**: *WER*=16.67, SNR<sub>seg</sub>=30.53]  
 **Benign**:                    **Kenansville adversarial**:  
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
+	<source src="audio_clips/Alzantot/5683-32866-0007.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
+	<source src="audio_clips/Alzantot/5683-32866-0007_26020.wav" type="audio/wav" />
 </audio>
