@@ -1,6 +1,6 @@
 # Adversarial example demo
 
-For a more optimal viewing, please open the online version: https://confunknown.github.io/AssesNoiseAugm/
+For a more optimal viewing, please open the online version: [*https://confunknown.github.io/AssesNoiseAugm/*](https://confunknown.github.io/AssesNoiseAugm/)
 
 Supplementary material containing a selection of benign, adversarial, and noisy data employed in our [*paper*]().
 
