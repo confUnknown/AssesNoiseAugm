@@ -45,9 +45,9 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 Adversarial transcription:  <em>THEY WERE SO EXTREMELY CURIOUS</em>
 </pre> &nbsp;
 **Benign**:               **Benign + Noise**: SNR<sub>seg</sub>= 9.38  
-[**1**: *WER*=16.67],            [**1**: *WER*=16.67]  
-[**2**: *WER*=16.67],            [**2**: *WER*=16.67]  
-[**3**: *WER*=16.67],            [**3**: *WER*=16.67]  
+[**1**: *WER*=00.00],            [**1**: *WER*=42.86]  
+[**2**: *WER*=00.00],            [**2**: *WER*=28.57]  
+[**3**: *WER*=00.00],            [**3**: *WER*=0.00]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/7021-85628-0026_benign.wav" type="audio/wav" />
 </audio>
@@ -55,9 +55,9 @@ Adversarial transcription:  <em>THEY WERE SO EXTREMELY CURIOUS</em>
 	<source src="audio_clips/c_w/7021-85628-0026_benign_noise.wav" type="audio/wav" />
 </audio>
 **C&W adversarial**:           **C&W adversarial + Noise**:  
-[**1**: *WER*=00.00, SNR<sub>seg</sub>=23.55],     [**1**: *WER*=120.0]  
-[**2**: *WER*=00.00, SNR<sub>seg</sub>=27.87],     [**2**: *WER*=100.0]  
-[**3**: *WER*=60.00, SNR<sub>seg</sub>=26.28],     [**3**: *WER*=120.0]  
+[**1**: *WER*=00.00, SNR<sub>seg</sub>=22.20],     [**1**: *WER*=100.0]  
+[**2**: *WER*=00.00, SNR<sub>seg</sub>=17.04],     [**2**: *WER*=100.0]  
+[**3**: *WER*=60.00, SNR<sub>seg</sub>=04.13],     [**3**: *WER*=100.0]  
 <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/7021-85628-0026_cw_26020.wav" type="audio/wav" />
 </audio>
