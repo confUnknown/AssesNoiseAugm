@@ -99,10 +99,10 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 [**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
 **Benign**:               **Alzantot adversarial**:  
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/alzanztot/908-157963-0017.wav" type="audio/wav" />
+	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/alzanztot/908-157963-0017_26020.wav" type="audio/wav" />
+	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
 </audio>
 ###### Sample 2
 <pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
