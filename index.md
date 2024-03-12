@@ -91,12 +91,17 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 
 ### Experiments for the Alzantot attack.
 ###### Sample 1 
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
+<pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+**Alzantot adversarial**:  
+[**1**: *WER*=66.67, SNR<sub>seg</sub>=25.78]  
+[**2**: *WER*=66.67, SNR<sub>seg</sub>=23.94]  
+[**3**: *WER*=41.67, SNR<sub>seg</sub>=22.30]  
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/c_w/2094-142345-0055_cw_26022.wav" type="audio/wav" />
+</audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/2094-142345-0055_cw_noise_26022.wav" type="audio/wav" />
 </audio>
 ###### Sample 2
 <pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
