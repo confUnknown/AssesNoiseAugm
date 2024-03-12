@@ -20,7 +20,7 @@ As outlined in our paper we investigated three types of training regimes, result
 <pre>Benign transcription:       <em>THEY OF COURSE MUST ALL BE ALTERED</em>
 Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 </pre> &nbsp;
-**Benign**:               **Benign + noise**: SNR<sub>seg</sub>= -4.81  
+**Benign**:               **Benign + Noise**: SNR<sub>seg</sub>= -4.81  
 [**1**: *WER*=14.29],            [**1**: *WER*=71.43]  
 [**2**: *WER*=00.00],            [**2**: *WER*=57.14]  
 [**3**: *WER*=14.29],            [**3**: *WER*=14.29]  
@@ -30,7 +30,7 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/c_w/8455-210777-0066_benign_noise.wav" type="audio/wav" />
 </audio>
-**C&W adversarial**:           **C&W adversarial + noise**:  
+**C&W adversarial**:           **C&W adversarial + Noise**:  
 [**1**: *WER*=00.00, SNR<sub>seg</sub>=24.47],     [**1**: *WER*=100.0]  
 [**2**: *WER*=03.42, SNR<sub>seg</sub>=18.84],     [**2**: *WER*=100.0]  
 [**3**: *WER*=08.42, SNR<sub>seg</sub>=15.93],     [**3**: *WER*=100.0]  
@@ -38,23 +38,31 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 	<source src="audio_clips/c_w/8455-210777-0066_cw_26022.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/8455-210777-0066_cw_noisa_26022.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/8455-210777-0066_cw_noise_26022.wav" type="audio/wav" />
 </audio>
 ###### Sample 2
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
+<pre>Benign transcription:       <em>NO MY LITTLE SON SHE SAID</em>
+Adversarial transcription:  <em>THEY WERE SO EXTREMELY CURIOUS</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
- <audio style="width:320px" controls="controls">
-	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
+**Benign**:               **Benign + Noise**: SNR<sub>seg</sub>= 9.38  
+[**1**: *WER*=16.67],            [**1**: *WER*=16.67]  
+[**2**: *WER*=16.67],            [**2**: *WER*=16.67]  
+[**3**: *WER*=16.67],            [**3**: *WER*=16.67]  
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/c_w/7021-85628-0026_benign.wav" type="audio/wav" />
 </audio>
-###### Sample 3 
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
-</pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/7021-85628-0026_benign_noise.wav" type="audio/wav" />
+</audio>
+**C&W adversarial**:           **C&W adversarial + Noise**:  
+[**1**: *WER*=00.00, SNR<sub>seg</sub>=23.55],     [**1**: *WER*=120.0]  
+[**2**: *WER*=00.00, SNR<sub>seg</sub>=27.87],     [**2**: *WER*=100.0]  
+[**3**: *WER*=60.00, SNR<sub>seg</sub>=26.28],     [**3**: *WER*=120.0]  
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/c_w/7021-85628-0026_cw_26020.wav" type="audio/wav" />
+</audio>
+ <audio style="width:320px" controls="controls">
+	<source src="audio_clips/c_w/7021-85628-0026_cw_noise_26020.wav" type="audio/wav" />
 </audio>
 
 ### Experiments for the Alzantot attack.
