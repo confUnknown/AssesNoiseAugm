@@ -41,28 +41,28 @@ Adversarial transcription:  <em>LOOK AT THAT HE HELD OUT HIS HAND</em>
 	<source src="audio_clips/c_w/8455-210777-0066_cw_noise_26022.wav" type="audio/wav" />
 </audio>
 ###### Sample 2
-<pre>Benign transcription:       <em>NO MY LITTLE SON SHE SAID</em>
-Adversarial transcription:  <em>THEY WERE SO EXTREMELY CURIOUS</em>
+<pre>Benign transcription:       <em>TO THEIR SORROW THEY WERE SOON UNDECEIVED</em>
+Adversarial transcription:  <em>ONE COULD HARDLY HOPE FOR ANY UPON SO DRY A DAY</em>
 </pre> &nbsp;
 **Benign**:               **Benign + Noise**: SNR<sub>seg</sub>= 9.38  
 [**1**: *WER*=00.00],            [**1**: *WER*=42.86]  
 [**2**: *WER*=00.00],            [**2**: *WER*=28.57]  
 [**3**: *WER*=00.00],            [**3**: *WER*=0.00]  
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/7021-85628-0026_benign.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/7729-102255-0034.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/7021-85628-0026_benign_noise.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/7729-102255-0034_benign_noise.wav" type="audio/wav" />
 </audio>
 **C&W adversarial**:           **C&W adversarial + Noise**:  
 [**1**: *WER*=00.00, SNR<sub>seg</sub>=22.20],     [**1**: *WER*=100.0]  
 [**2**: *WER*=00.00, SNR<sub>seg</sub>=17.04],     [**2**: *WER*=100.0]  
 [**3**: *WER*=60.00, SNR<sub>seg</sub>=04.13],     [**3**: *WER*=100.0]  
 <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/7021-85628-0026_cw_26020.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/7729-102255-0034_cw_26022.wav" type="audio/wav" />
 </audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/c_w/7021-85628-0026_cw_noise_26020.wav" type="audio/wav" />
+	<source src="audio_clips/c_w/7729-102255-0034_cw_noise_26022.wav" type="audio/wav" />
 </audio>
 
 ### Experiments for the Alzantot attack.
