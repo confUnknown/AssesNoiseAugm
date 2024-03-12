@@ -91,20 +91,6 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 
 ### Experiments for the Alzantot attack.
 ###### Sample 1 
-<pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
-</pre> &nbsp;
-**Alzantot adversarial**:  
-[**1**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
-[**2**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
-[**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
-**Benign**:                    **Alzantot adversarial**:  
-<audio style="width:320px" controls="controls">
-	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
-</audio>
- <audio style="width:320px" controls="controls">
-	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
-</audio>
-###### Sample 2 
 <pre>Benign transcription:       <em>WHY FADE THESE CHILDREN OF THE SPRING</em>
 </pre> &nbsp;
 **Alzantot adversarial**:  
@@ -118,29 +104,47 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/Alzantot/908-157963-0003_26020.wav" type="audio/wav" />
 </audio>
+###### Sample 2 
+<pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
+</pre> &nbsp;
+**Alzantot adversarial**:  
+[**1**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
+[**2**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
+[**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
+**Benign**:                    **Alzantot adversarial**:  
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
+</audio>
+ <audio style="width:320px" controls="controls">
+	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
+</audio>
 
 ### Experiments for the Kenansville attack.
 ###### Sample 1 
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
+<pre>Benign transcription:       <em>WHY FADE THESE CHILDREN OF THE SPRING</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
- <audio style="width:320px" controls="controls">
-	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
+**Kenansville adversarial**:  
+[**1**: *WER*=42.86, SNR<sub>seg</sub>=13.62]  
+[**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
+[**3**: *WER*=14.29, SNR<sub>seg</sub>=29.48]  
+**Benign**:                    **Kenansville adversarial**:  
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Alzantot/908-157963-0003.wav" type="audio/wav" />
 </audio>
-###### Sample 2
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
-</pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
+	<source src="audio_clips/Alzantot/908-157963-0003_26020.wav" type="audio/wav" />
 </audio>
-###### Sample 3 
-<pre>Benign transcription:       <em>THEN HE LOOKED DOWN THE LAGOON WAS DRY</em>
-Adversarial transcription:  <em>PEARL WAS A BORN OUTCAST OF THE INFANTILE WORLD</em>
+###### Sample 2 
+<pre>Benign transcription:       <em>THE CLOUD THEN SHEWD HIS GOLDEN HEAD AND HIS BRIGHT FORM EMERG'D</em>
 </pre> &nbsp;
-[**benign**: *WER*=0.00],               [**noisy**: *WER*=62.50, SNR<sub>seg</sub>=-4.79]
+**Alzantot adversarial**:  
+[**1**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
+[**2**: *WER*=66.67, SNR<sub>seg</sub>=11.55]  
+[**3**: *WER*=41.67, SNR<sub>seg</sub>=11.56]  
+**Benign**:                    **Kenansville adversarial**:  
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/Alzantot/908-157963-0017.wav" type="audio/wav" />
+</audio>
  <audio style="width:320px" controls="controls">
-	<source src="audio_clips/1995-1837-0013_benign.wav" type="audio/wav" />
+	<source src="audio_clips/Alzantot/908-157963-0017_26020.wav" type="audio/wav" />
 </audio>
