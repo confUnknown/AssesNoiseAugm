@@ -121,23 +121,9 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 
 ### Experiments for the Kenansville attack.
 ###### Sample 1 
-<pre>Benign transcription:       <em>WHY FADE THESE CHILDREN OF THE SPRING</em>
-</pre> &nbsp;
-**Kenansville adversarial**:  
-[**1**: *WER*=42.86, SNR<sub>seg</sub>=13.62]  
-[**2**: *WER*=42.86, SNR<sub>seg</sub>=13.54]  
-[**3**: *WER*=14.29, SNR<sub>seg</sub>=29.48]  
-**Benign**:                    **Kenansville adversarial**:  
-<audio style="width:320px" controls="controls">
-	<source src="audio_clips/kenansville/908-157963-0003.wav" type="audio/wav" />
-</audio>
- <audio style="width:320px" controls="controls">
-	<source src="audio_clips/kenansville/908-157963-0003_26020.wav" type="audio/wav" />
-</audio>
-###### Sample 2 
 <pre>Benign transcription:       <em>IF A FELLOW'S BEEN A LITTLE BIT WILD HE'S BEELZEBUB AT ONCE</em>
 </pre> &nbsp;
-**Alzantot adversarial**:  
+**Kenansville adversarial**:  
 [**1**: *WER*=41.67, SNR<sub>seg</sub>=22.37]  
 [**2**: *WER*=16.67, SNR<sub>seg</sub>=22.37]  
 [**3**: *WER*=16.67, SNR<sub>seg</sub>=30.53]  
@@ -147,4 +133,18 @@ Adversarial transcription:  <em>YES MY DEAR WATSON I HAVE SOLVED THE MYSTERY</em
 </audio>
  <audio style="width:320px" controls="controls">
 	<source src="audio_clips/kenansville/5683-32866-0007_26020.wav" type="audio/wav" />
+</audio>
+###### Sample 2 
+<pre>Benign transcription:       <em>WE ARE QUITE SATISFIED NOW CAPTAIN BATTLEAX SAID MY WIFE</em>
+</pre> &nbsp;
+**Kenansville adversarial**:  
+[**1**: *WER*=20.00, SNR<sub>seg</sub>=18.76]  
+[**2**: *WER*=20.00, SNR<sub>seg</sub>=11.49]  
+[**3**: *WER*=10.00, SNR<sub>seg</sub>=8.92]  
+**Benign**:                    **Kenansville adversarial**:  
+<audio style="width:320px" controls="controls">
+	<source src="audio_clips/kenansville/8455-210777-0006.wav" type="audio/wav" />
+</audio>
+ <audio style="width:320px" controls="controls">
+	<source src="audio_clips/kenansville/8455-210777-0006_26020.wav" type="audio/wav" />
 </audio>
